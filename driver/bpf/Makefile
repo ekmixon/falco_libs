@@ -5,7 +5,7 @@
 # MIT.txt or GPL.txt for full copies of the license.
 #
 
-always += probe.o
+always-y += probe.o
 
 LLC ?= llc
 CLANG ?= clang
